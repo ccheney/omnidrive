@@ -8,6 +8,10 @@
   "icons": {
     "16": "product16.png"
   },
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
   "background": {
     "persistent": false,
     "scripts": ["background.js"]
