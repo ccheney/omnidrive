@@ -10,7 +10,7 @@ chrome.storage.sync.get('appDomain', cb );
 function cb (response) {
     let appDomain;
 
-    if (response.appDomain.length > 0) {
+    if (response.appDomain != null && response.appDomain.length > 0) {
         appDomain = response.appDomain;
     } else {
         appDomain = '';
